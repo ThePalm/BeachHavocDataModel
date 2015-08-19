@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Game" representedClassName="Game" syncable="YES">
+        <attribute name="gameName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gameNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="gamePurchased" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="gamePurchsedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="scenes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Scene" inverseName="game" inverseEntity="Scene" syncable="YES"/>
+    </entity>
+    <entity name="OccupierDecorator" representedClassName="OccupierDecorator" syncable="YES">
+        <attribute name="occupierImageFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="occupierName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="occupierOrientation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="occupierSceneNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="occupierSize" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="occupierX" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="occupierY" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="scenes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Scene" inverseName="decorators" inverseEntity="Scene" syncable="YES"/>
+    </entity>
+    <entity name="Scene" representedClassName="Scene" syncable="YES">
+        <attribute name="sceneChaserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sceneChaserX" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sceneChaserY" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sceneGameNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sceneSceneNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sceneTimeInSeconds" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sceneZoom" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="decorators" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="OccupierDecorator" inverseName="scenes" inverseEntity="OccupierDecorator" syncable="YES"/>
+        <relationship name="game" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="scenes" inverseEntity="Game" syncable="YES"/>
+        <relationship name="targets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Target" inverseName="scene" inverseEntity="Target" syncable="YES"/>
+    </entity>
+    <entity name="Target" representedClassName="Target" syncable="YES">
+        <attribute name="targetDoesBounceOrBlock" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="targetDoesRetaliate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="targetIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="targetLeftRight" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetRetaliateRunIterations" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="targetRunDirection" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetRunDirection2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetRunDirection3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetRunIterations" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="targetSceneNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="targetType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetX" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="targetY" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="targtDoesAddLife" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="scene" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Scene" inverseName="targets" inverseEntity="Scene" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Game" positionX="-434" positionY="-144" width="128" height="120"/>
+        <element name="OccupierDecorator" positionX="16" positionY="-100" width="128" height="163"/>
+        <element name="Scene" positionX="-200" positionY="0" width="128" height="193"/>
+        <element name="Target" positionX="16" positionY="116" width="173" height="283"/>
+    </elements>
+</model>

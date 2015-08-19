@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE18A80A162B673700077A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE18A809162B673700077A25 /* UIKit.framework */; };
+		AE18A80C162B673700077A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE18A80B162B673700077A25 /* Foundation.framework */; };
+		AE18A80E162B673700077A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE18A80D162B673700077A25 /* CoreGraphics.framework */; };
+		AE18A814162B673700077A25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE18A812162B673700077A25 /* InfoPlist.strings */; };
+		AE18A816162B673700077A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE18A815162B673700077A25 /* main.m */; };
+		AE18A81A162B673700077A25 /* BeachHavocAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE18A819162B673700077A25 /* BeachHavocAppDelegate.m */; };
+		AE18A823162B673700077A25 /* BeachHavocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE18A822162B673700077A25 /* BeachHavocViewController.m */; };
+		AE18A826162B673700077A25 /* BeachHavocViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE18A824162B673700077A25 /* BeachHavocViewController.xib */; };
+		AEBF03DE162B91B800620505 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBF03DD162B91B800620505 /* AVFoundation.framework */; };
+		AEBF03E1162B91D200620505 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBF03E0162B91D200620505 /* QuartzCore.framework */; };
+		AEBF03E3162B91EB00620505 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBF03E2162B91EB00620505 /* OpenAL.framework */; };
+		AEF2F030162B9278000F0BB8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF2F02F162B9278000F0BB8 /* AudioToolbox.framework */; };
+		F117934818BE89AA00DA30AA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117934718BE89AA00DA30AA /* StoreKit.framework */; };
+		F13E90FC1B0BBA64008B141D /* BeachRampageIcon5_58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = F13E90FA1B0BBA64008B141D /* BeachRampageIcon5_58x58.png */; };
+		F13E90FD1B0BBA64008B141D /* BeachRampageIcon5_144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = F13E90FB1B0BBA64008B141D /* BeachRampageIcon5_144x144.png */; };
+		F13E90FF1B0BBBBD008B141D /* BeachRampageIcon5_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = F13E90FE1B0BBBBD008B141D /* BeachRampageIcon5_80x80.png */; };
+		F13E91011B0BBCF3008B141D /* BeachRampageIcon5_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F13E91001B0BBCF3008B141D /* BeachRampageIcon5_57x57.png */; };
+		F167041E1B0C34A8009C45B3 /* BeachRampageIcon5_180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = F167041D1B0C34A8009C45B3 /* BeachRampageIcon5_180x180.png */; };
+		F16C8E671AFD8854002832C3 /* BeachHavoc.data in Resources */ = {isa = PBXBuildFile; fileRef = F16C8E661AFD8854002832C3 /* BeachHavoc.data */; };
+		F1762D1E1B5E8FCA009585C5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1762D1D1B5E8FCA009585C5 /* SystemConfiguration.framework */; };
+		F18D3BF81B1CE99D004CF9C6 /* Default-iOS7-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F18D3BF61B1CE99D004CF9C6 /* Default-iOS7-568h@2x.png */; };
+		F18D3BF91B1CE99D004CF9C6 /* Default-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F18D3BF71B1CE99D004CF9C6 /* Default-iOS7@2x.png */; };
+		F18D4E181B0BEE9B00C1D56B /* BeachRampageIcon5_29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = F18D4E171B0BEE9B00C1D56B /* BeachRampageIcon5_29x29.png */; };
+		F18D4E1A1B0BEF3200C1D56B /* BeachRampageIcon5_87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = F18D4E191B0BEF3200C1D56B /* BeachRampageIcon5_87x87.png */; };
+		F18D4E1C1B0BEFB900C1D56B /* BeachRampageIcon5_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = F18D4E1B1B0BEFB900C1D56B /* BeachRampageIcon5_120x120.png */; };
+		F18EDE661B84A81C00F90785 /* TargetObj.m in Sources */ = {isa = PBXBuildFile; fileRef = F18EDE651B84A81C00F90785 /* TargetObj.m */; };
+		F18EDE6B1B84A9EA00F90785 /* OccupierObj.m in Sources */ = {isa = PBXBuildFile; fileRef = F18EDE681B84A9EA00F90785 /* OccupierObj.m */; };
+		F18EDE6C1B84A9EA00F90785 /* SceneObj.m in Sources */ = {isa = PBXBuildFile; fileRef = F18EDE6A1B84A9EA00F90785 /* SceneObj.m */; };
+		F1924B8A1B6FCAD300884035 /* Default-iOS7@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F1924B891B6FCAD300884035 /* Default-iOS7@2x~ipad.png */; };
+		F1924B8C1B6FD00E00884035 /* Default-iOS7~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F1924B8B1B6FD00E00884035 /* Default-iOS7~ipad.png */; };
+		F1BD53D019806FC800E9CF6F /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD53CF19806FC800E9CF6F /* Scene.m */; };
+		F1C22160195877540087697D /* OccupierDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C2215F195877540087697D /* OccupierDecorator.m */; };
+		F1C3FDDE194F041A00AA5065 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C3FDDD194F041A00AA5065 /* Game.m */; };
+		F1C80532194E7BB100D757F5 /* BeachHavoc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1C80524194E7BB100D757F5 /* BeachHavoc.xcdatamodeld */; };
+		F1C80535194E7BB100D757F5 /* HHICoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C8052B194E7BB100D757F5 /* HHICoreDataManager.m */; };
+		F1C9A4D2194B461C00DD215D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C9A4D1194B461C00DD215D /* CoreData.framework */; };
+		F1C9C713191A83700046EB37 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C9C712191A83700046EB37 /* CoreMotion.framework */; };
+		F1CC4FDD195DCA49004FC0DC /* Target.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CC4FDC195DCA49004FC0DC /* Target.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE18A805162B673700077A25 /* BeachHavocDataModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeachHavocDataModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE18A809162B673700077A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE18A80B162B673700077A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE18A80D162B673700077A25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE18A811162B673700077A25 /* BeachHavocDataModel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeachHavocDataModel-Info.plist"; sourceTree = "<group>"; };
+		AE18A813162B673700077A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE18A815162B673700077A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE18A817162B673700077A25 /* BeachHavocDataModel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeachHavocDataModel-Prefix.pch"; sourceTree = "<group>"; };
+		AE18A818162B673700077A25 /* BeachHavocAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeachHavocAppDelegate.h; sourceTree = "<group>"; };
+		AE18A819162B673700077A25 /* BeachHavocAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeachHavocAppDelegate.m; sourceTree = "<group>"; };
+		AE18A821162B673700077A25 /* BeachHavocViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeachHavocViewController.h; sourceTree = "<group>"; };
+		AE18A822162B673700077A25 /* BeachHavocViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeachHavocViewController.m; sourceTree = "<group>"; };
+		AE18A825162B673700077A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BeachHavocViewController.xib; sourceTree = "<group>"; };
+		AEBF03DD162B91B800620505 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AEBF03E0162B91D200620505 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AEBF03E2162B91EB00620505 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		AEF2F02F162B9278000F0BB8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F117934718BE89AA00DA30AA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F13E90FA1B0BBA64008B141D /* BeachRampageIcon5_58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BeachRampageIcon5_58x58.png; path = Images/BeachRampageIcon5_58x58.png; sourceTree = "<group>"; };
+		F13E90FB1B0BBA64008B141D /* BeachRampageIcon5_144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BeachRampageIcon5_144x144.png; path = Images/BeachRampageIcon5_144x144.png; sourceTree = "<group>"; };
+		F13E90FE1B0BBBBD008B141D /* BeachRampageIcon5_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BeachRampageIcon5_80x80.png; path = Images/BeachRampageIcon5_80x80.png; sourceTree = "<group>"; };
+		F13E91001B0BBCF3008B141D /* BeachRampageIcon5_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BeachRampageIcon5_57x57.png; path = Images/BeachRampageIcon5_57x57.png; sourceTree = "<group>"; };
+		F167041D1B0C34A8009C45B3 /* BeachRampageIcon5_180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BeachRampageIcon5_180x180.png; path = Images/BeachRampageIcon5_180x180.png; sourceTree = "<group>"; };
+		F16C8E661AFD8854002832C3 /* BeachHavoc.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = BeachHavoc.data; sourceTree = "<group>"; };
+		F1762D1D1B5E8FCA009585C5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F18D3BF61B1CE99D004CF9C6 /* Default-iOS7-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-iOS7-568h@2x.png"; path = "Images/Default-iOS7-568h@2x.png"; sourceTree = "<group>"; };
+		F18D3BF71B1CE99D004CF9C6 /* Default-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-iOS7@2x.png"; path = "Images/Default-iOS7@2x.png"; sourceTree = "<group>"; };
+		F18D4E171B0BEE9B00C1D56B /* BeachRampageIcon5_29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BeachRampageIcon5_29x29.png; path = Images/BeachRampageIcon5_29x29.png; sourceTree = "<group>"; };
+		F18D4E191B0BEF3200C1D56B /* BeachRampageIcon5_87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BeachRampageIcon5_87x87.png; path = Images/BeachRampageIcon5_87x87.png; sourceTree = "<group>"; };
+		F18D4E1B1B0BEFB900C1D56B /* BeachRampageIcon5_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BeachRampageIcon5_120x120.png; path = Images/BeachRampageIcon5_120x120.png; sourceTree = "<group>"; };
+		F18EDE641B84A81C00F90785 /* TargetObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TargetObj.h; path = Classes/TargetObj.h; sourceTree = SOURCE_ROOT; };
+		F18EDE651B84A81C00F90785 /* TargetObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TargetObj.m; path = Classes/TargetObj.m; sourceTree = SOURCE_ROOT; };
+		F18EDE671B84A9EA00F90785 /* OccupierObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OccupierObj.h; sourceTree = "<group>"; };
+		F18EDE681B84A9EA00F90785 /* OccupierObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OccupierObj.m; sourceTree = "<group>"; };
+		F18EDE691B84A9EA00F90785 /* SceneObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneObj.h; sourceTree = "<group>"; };
+		F18EDE6A1B84A9EA00F90785 /* SceneObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneObj.m; sourceTree = "<group>"; };
+		F1924B891B6FCAD300884035 /* Default-iOS7@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-iOS7@2x~ipad.png"; path = "Images/Default-iOS7@2x~ipad.png"; sourceTree = "<group>"; };
+		F1924B8B1B6FD00E00884035 /* Default-iOS7~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-iOS7~ipad.png"; path = "Images/Default-iOS7~ipad.png"; sourceTree = "<group>"; };
+		F1BD53CE19806FC800E9CF6F /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		F1BD53CF19806FC800E9CF6F /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		F1C2215E195877540087697D /* OccupierDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OccupierDecorator.h; sourceTree = "<group>"; };
+		F1C2215F195877540087697D /* OccupierDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OccupierDecorator.m; sourceTree = "<group>"; };
+		F1C3FDDC194F041A00AA5065 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		F1C3FDDD194F041A00AA5065 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		F1C80525194E7BB100D757F5 /* BeachHavoc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeachHavoc.xcdatamodel; sourceTree = "<group>"; };
+		F1C8052A194E7BB100D757F5 /* HHICoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHICoreDataManager.h; sourceTree = "<group>"; };
+		F1C8052B194E7BB100D757F5 /* HHICoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHICoreDataManager.m; sourceTree = "<group>"; };
+		F1C9A4D1194B461C00DD215D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F1C9C712191A83700046EB37 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F1CC4FDB195DCA49004FC0DC /* Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		F1CC4FDC195DCA49004FC0DC /* Target.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE18A802162B673700077A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1762D1E1B5E8FCA009585C5 /* SystemConfiguration.framework in Frameworks */,
+				F1C9A4D2194B461C00DD215D /* CoreData.framework in Frameworks */,
+				F1C9C713191A83700046EB37 /* CoreMotion.framework in Frameworks */,
+				F117934818BE89AA00DA30AA /* StoreKit.framework in Frameworks */,
+				AEF2F030162B9278000F0BB8 /* AudioToolbox.framework in Frameworks */,
+				AEBF03E3162B91EB00620505 /* OpenAL.framework in Frameworks */,
+				AEBF03E1162B91D200620505 /* QuartzCore.framework in Frameworks */,
+				AEBF03DE162B91B800620505 /* AVFoundation.framework in Frameworks */,
+				AE18A80A162B673700077A25 /* UIKit.framework in Frameworks */,
+				AE18A80C162B673700077A25 /* Foundation.framework in Frameworks */,
+				AE18A80E162B673700077A25 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE18A7FA162B673700077A25 = {
+			isa = PBXGroup;
+			children = (
+				AEB83A6D162B7DED003C247F /* Images */,
+				F1C80523194E7BB100D757F5 /* Model */,
+				AE18A80F162B673700077A25 /* Beach Havoc */,
+				AE18A808162B673700077A25 /* Frameworks */,
+				AE18A806162B673700077A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE18A806162B673700077A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE18A805162B673700077A25 /* BeachHavocDataModel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE18A808162B673700077A25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1762D1D1B5E8FCA009585C5 /* SystemConfiguration.framework */,
+				F1C9A4D1194B461C00DD215D /* CoreData.framework */,
+				AEBF03DD162B91B800620505 /* AVFoundation.framework */,
+				AEBF03E0162B91D200620505 /* QuartzCore.framework */,
+				AEBF03E2162B91EB00620505 /* OpenAL.framework */,
+				AEF2F02F162B9278000F0BB8 /* AudioToolbox.framework */,
+				F1C9C712191A83700046EB37 /* CoreMotion.framework */,
+				F117934718BE89AA00DA30AA /* StoreKit.framework */,
+				AE18A809162B673700077A25 /* UIKit.framework */,
+				AE18A80B162B673700077A25 /* Foundation.framework */,
+				AE18A80D162B673700077A25 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE18A80F162B673700077A25 /* Beach Havoc */ = {
+			isa = PBXGroup;
+			children = (
+				AE18A818162B673700077A25 /* BeachHavocAppDelegate.h */,
+				AE18A819162B673700077A25 /* BeachHavocAppDelegate.m */,
+				AE18A821162B673700077A25 /* BeachHavocViewController.h */,
+				AE18A822162B673700077A25 /* BeachHavocViewController.m */,
+				AE18A824162B673700077A25 /* BeachHavocViewController.xib */,
+				AE18A810162B673700077A25 /* Supporting Files */,
+			);
+			path = "Beach Havoc";
+			sourceTree = "<group>";
+		};
+		AE18A810162B673700077A25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F16C8E661AFD8854002832C3 /* BeachHavoc.data */,
+				AE18A811162B673700077A25 /* BeachHavocDataModel-Info.plist */,
+				AE18A812162B673700077A25 /* InfoPlist.strings */,
+				AE18A815162B673700077A25 /* main.m */,
+				AE18A817162B673700077A25 /* BeachHavocDataModel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEB83A6D162B7DED003C247F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F1924B8B1B6FD00E00884035 /* Default-iOS7~ipad.png */,
+				F1924B891B6FCAD300884035 /* Default-iOS7@2x~ipad.png */,
+				F18D3BF61B1CE99D004CF9C6 /* Default-iOS7-568h@2x.png */,
+				F18D3BF71B1CE99D004CF9C6 /* Default-iOS7@2x.png */,
+				F167041D1B0C34A8009C45B3 /* BeachRampageIcon5_180x180.png */,
+				F18D4E1B1B0BEFB900C1D56B /* BeachRampageIcon5_120x120.png */,
+				F18D4E191B0BEF3200C1D56B /* BeachRampageIcon5_87x87.png */,
+				F18D4E171B0BEE9B00C1D56B /* BeachRampageIcon5_29x29.png */,
+				F13E91001B0BBCF3008B141D /* BeachRampageIcon5_57x57.png */,
+				F13E90FE1B0BBBBD008B141D /* BeachRampageIcon5_80x80.png */,
+				F13E90FA1B0BBA64008B141D /* BeachRampageIcon5_58x58.png */,
+				F13E90FB1B0BBA64008B141D /* BeachRampageIcon5_144x144.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F1C80523194E7BB100D757F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F18EDE671B84A9EA00F90785 /* OccupierObj.h */,
+				F18EDE681B84A9EA00F90785 /* OccupierObj.m */,
+				F18EDE691B84A9EA00F90785 /* SceneObj.h */,
+				F18EDE6A1B84A9EA00F90785 /* SceneObj.m */,
+				F18EDE641B84A81C00F90785 /* TargetObj.h */,
+				F18EDE651B84A81C00F90785 /* TargetObj.m */,
+				F1C80524194E7BB100D757F5 /* BeachHavoc.xcdatamodeld */,
+				F1C3FDDC194F041A00AA5065 /* Game.h */,
+				F1C3FDDD194F041A00AA5065 /* Game.m */,
+				F1C8052A194E7BB100D757F5 /* HHICoreDataManager.h */,
+				F1C8052B194E7BB100D757F5 /* HHICoreDataManager.m */,
+				F1C2215E195877540087697D /* OccupierDecorator.h */,
+				F1C2215F195877540087697D /* OccupierDecorator.m */,
+				F1CC4FDB195DCA49004FC0DC /* Target.h */,
+				F1CC4FDC195DCA49004FC0DC /* Target.m */,
+				F1BD53CE19806FC800E9CF6F /* Scene.h */,
+				F1BD53CF19806FC800E9CF6F /* Scene.m */,
+			);
+			name = Model;
+			path = "Beach Havoc/Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE18A804162B673700077A25 /* BeachHavocDataModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE18A829162B673700077A25 /* Build configuration list for PBXNativeTarget "BeachHavocDataModel" */;
+			buildPhases = (
+				AE18A801162B673700077A25 /* Sources */,
+				AE18A802162B673700077A25 /* Frameworks */,
+				AE18A803162B673700077A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeachHavocDataModel;
+			productName = "Beach Havoc";
+			productReference = AE18A805162B673700077A25 /* BeachHavocDataModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE18A7FC162B673700077A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BeachHavoc;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Hamilton Holt Incorporated";
+			};
+			buildConfigurationList = AE18A7FF162B673700077A25 /* Build configuration list for PBXProject "BeachHavocDataModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE18A7FA162B673700077A25;
+			productRefGroup = AE18A806162B673700077A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE18A804162B673700077A25 /* BeachHavocDataModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE18A803162B673700077A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE18A814162B673700077A25 /* InfoPlist.strings in Resources */,
+				AE18A826162B673700077A25 /* BeachHavocViewController.xib in Resources */,
+				F1924B8A1B6FCAD300884035 /* Default-iOS7@2x~ipad.png in Resources */,
+				F18D4E1A1B0BEF3200C1D56B /* BeachRampageIcon5_87x87.png in Resources */,
+				F18D3BF91B1CE99D004CF9C6 /* Default-iOS7@2x.png in Resources */,
+				F18D3BF81B1CE99D004CF9C6 /* Default-iOS7-568h@2x.png in Resources */,
+				F16C8E671AFD8854002832C3 /* BeachHavoc.data in Resources */,
+				F18D4E181B0BEE9B00C1D56B /* BeachRampageIcon5_29x29.png in Resources */,
+				F18D4E1C1B0BEFB900C1D56B /* BeachRampageIcon5_120x120.png in Resources */,
+				F13E90FD1B0BBA64008B141D /* BeachRampageIcon5_144x144.png in Resources */,
+				F13E91011B0BBCF3008B141D /* BeachRampageIcon5_57x57.png in Resources */,
+				F13E90FC1B0BBA64008B141D /* BeachRampageIcon5_58x58.png in Resources */,
+				F1924B8C1B6FD00E00884035 /* Default-iOS7~ipad.png in Resources */,
+				F167041E1B0C34A8009C45B3 /* BeachRampageIcon5_180x180.png in Resources */,
+				F13E90FF1B0BBBBD008B141D /* BeachRampageIcon5_80x80.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE18A801162B673700077A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE18A816162B673700077A25 /* main.m in Sources */,
+				AE18A81A162B673700077A25 /* BeachHavocAppDelegate.m in Sources */,
+				AE18A823162B673700077A25 /* BeachHavocViewController.m in Sources */,
+				F1C80535194E7BB100D757F5 /* HHICoreDataManager.m in Sources */,
+				F1C3FDDE194F041A00AA5065 /* Game.m in Sources */,
+				F1BD53D019806FC800E9CF6F /* Scene.m in Sources */,
+				F1C22160195877540087697D /* OccupierDecorator.m in Sources */,
+				F1C80532194E7BB100D757F5 /* BeachHavoc.xcdatamodeld in Sources */,
+				F18EDE6B1B84A9EA00F90785 /* OccupierObj.m in Sources */,
+				F18EDE661B84A81C00F90785 /* TargetObj.m in Sources */,
+				F1CC4FDD195DCA49004FC0DC /* Target.m in Sources */,
+				F18EDE6C1B84A9EA00F90785 /* SceneObj.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE18A812162B673700077A25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE18A813162B673700077A25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE18A824162B673700077A25 /* BeachHavocViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE18A825162B673700077A25 /* en */,
+			);
+			name = BeachHavocViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE18A827162B673700077A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE18A828162B673700077A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hamilton Holt Incorporated";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hamilton Holt Incorporated";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "24F90467-D4A5-41D6-9456-248C13021B5B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "24F90467-D4A5-41D6-9456-248C13021B5B";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE18A82A162B673700077A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beach Havoc/BeachHavocDataModel-Prefix.pch";
+				INFOPLIST_FILE = "Beach Havoc/BeachHavocDataModel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = BeachHavocDataModel;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE18A82B162B673700077A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beach Havoc/BeachHavocDataModel-Prefix.pch";
+				INFOPLIST_FILE = "Beach Havoc/BeachHavocDataModel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = BeachHavocDataModel;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE18A7FF162B673700077A25 /* Build configuration list for PBXProject "BeachHavocDataModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE18A827162B673700077A25 /* Debug */,
+				AE18A828162B673700077A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE18A829162B673700077A25 /* Build configuration list for PBXNativeTarget "BeachHavocDataModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE18A82A162B673700077A25 /* Debug */,
+				AE18A82B162B673700077A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1C80524194E7BB100D757F5 /* BeachHavoc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1C80525194E7BB100D757F5 /* BeachHavoc.xcdatamodel */,
+			);
+			currentVersion = F1C80525194E7BB100D757F5 /* BeachHavoc.xcdatamodel */;
+			path = BeachHavoc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE18A7FC162B673700077A25 /* Project object */;
+}
