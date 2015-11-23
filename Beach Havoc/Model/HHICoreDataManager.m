@@ -50,7 +50,6 @@
     return self;
 }
 
-
 #pragma mark - Public Class Methods
 
 + (NSManagedObjectContext *)mainThreadContext
